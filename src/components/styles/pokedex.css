@@ -1,0 +1,20 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.pokedex__form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+@media(max-width:768px){
+  .pokedex__form{
+    gap: 0;
+  }
+}

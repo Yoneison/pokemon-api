@@ -1,0 +1,41 @@
+.numberPages{
+    width: 100vw;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    
+}
+h1{
+    margin-left: 8px;
+}
+.card-pagination{
+    font-size: 15px;
+}
+.pagination__btn-prev{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 63px;    
+    font-size: 13px;
+    text-align: center;
+    border: transparent;
+}
+.pagination__btn-prev:hover{
+    background-color: rgb(57, 57, 57);
+}
+.pagination__btn-next{
+    background-color: black;
+    color: aliceblue;
+    width: 63px;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 13px;
+    text-align: center;
+    border: transparent;
+}
+.pagination__btn-next:hover{
+    background-color: rgb(57, 57, 57);
+}
